@@ -2,7 +2,10 @@ from fastapi import FastAPI, HTTPException
 import aiofiles
 import re
 
-app = FastAPI()
+app = FastAPI(
+    title="Nepali Dictionary API",
+    description="Input English words, get meaning in Nepali",
+)
 
 
 async def get_data():
