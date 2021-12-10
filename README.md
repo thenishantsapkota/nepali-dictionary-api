@@ -44,3 +44,7 @@ You can say this is just the API version of that project.
 
 6. PGAdmin will be available on: http://localhost:5000
     ```
+
+### Credits
+
+- Architecture Inspired from @robusgauli
