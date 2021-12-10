@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "nepali dictionary api"
+name = "nepali-dictionary"
 version = "1.0"
 description = "A Nepali Dictionary API that returns Nepali meaning of word based on word provided"
 authors = ["Nishant Sapkota <snishant306@gmail.com>"]
@@ -10,9 +10,16 @@ python = "^3.9"
 fastapi = "^0.70.0"
 uvicorn = {extras = ["standard"], version = "^0.16.0"}
 aiofiles = "^0.8.0"
+async_lru = "^1.0.2"
+fastapi-utils = "^0.2.1"
+sqlmodel = "^0.0.4"
+psycopg2-binary = "^2.9.2"
+
 
 [tool.poetry.dev-dependencies]
 black = {version = "^21.12b0", allow-prereleases = true}
+autopep8 = "^1.6.0"
+python-dotenv = "^0.19.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
